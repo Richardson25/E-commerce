@@ -13,12 +13,32 @@ body{
     background-color: aquamarine; 
 }
 
+html{
+    font-size: 65%;
+}
+
 main{
     max-width: 1024px;
     margin: auto;
     padding: 32px 0;
 }
 
-html{
-    font-size: 65%;
+.input{
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    color: #7f7f7f;
+    outline: none;
+    padding: 21px 40px;
+    width: 400px;
 }
+
+.button{
+    background-color: #1D4FFE;
+    color: #ffffff;
+    font-size: 1.8rem;
+    border: 0;
+    border-radius: 4px;
+    padding: 18px 32px;
+}
+

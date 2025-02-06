@@ -69,25 +69,5 @@ color: #7f7f7f;
     }
 
 
-
-
-
-    .button{
-        margin-left: 150px;
-        background-color: rgb(64, 64, 216);
-        padding: 20px;
-        border-radius: 6%;
-    }
-
-    .news-right #newsletterform{
-        padding: 0 24px 24px 24px;
-    }
-    #newsletterform{
-        margin-left: 130px;
-    }
-
-
-
-
 }
 
