@@ -48,7 +48,7 @@ header .header-main {
   display: none;
   gap: 40px;
 }
-
+/*Look for a item*/
 .header-right .search,
 .header-search .search{
     display: none;
@@ -81,15 +81,15 @@ header .header-main {
 .header-menu{
     padding-bottom: 32px;
 }
-
+/*menu pour telephone*/
 .header-menu a{
     display: block;
     text-decoration: none;
     color: #325e86c7;
     font-size: 1.9rem;
-    padding: 24px 32px ;
+    padding: 24px 32px;
     font-weight: bold;
-    border-bottom: 1 px solid #325e86c7;
+    border-bottom: 1px solid #325e86c7;
     background-image: url(../images/ui/arrow-up-right.png);
     background-repeat: no-repeat;
     background-size: 24px;
@@ -122,7 +122,7 @@ header .header-main {
 }
 
 .header-right .menu-burger.active .off{
-  display: block;
+  display: none;
  }
 
 
@@ -197,9 +197,7 @@ header .header-main {
   .header-search{
     display: none;
   }
- /* .header-search{
-    padding: 0 24px 24px 24px;
-}*/
+ 
     .header-search{
         display: none;
      }
@@ -217,7 +215,7 @@ header .header-main {
     }
 
     .header-menu{
-        display: none !important
+        display: none !important;
     }
     .desktop{
         white-space: nowrap;
